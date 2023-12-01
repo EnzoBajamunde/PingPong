@@ -1,0 +1,33 @@
+﻿  Game.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdlib.h(56,48): error C2381: 'exit': redefinition; 'noreturn' differs
+  (compiling source file 'Game.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\glut.h(146,29):
+  see declaration of 'exit'
+  
+D:\UNITY\PingPong\Game.cpp(6,14): error C2512: 'PingPongBall': no appropriate default constructor available
+  D:\UNITY\PingPong\PingPongBall.h(5,7):
+  see declaration of 'PingPongBall'
+  
+D:\UNITY\PingPong\Game.cpp(6,14): error C2512: 'Player': no appropriate default constructor available
+  D:\UNITY\PingPong\Player.h(5,7):
+  see declaration of 'Player'
+  
+  main.cpp
+D:\UNITY\PingPong\main.cpp(16,10): error C2248: 'Game::handleKeyboard': cannot access private member declared in class 'Game'
+  D:\UNITY\PingPong\Game.h(21,10):
+  see declaration of 'Game::handleKeyboard'
+  D:\UNITY\PingPong\Game.h(9,7):
+  see declaration of 'Game'
+  
+D:\UNITY\PingPong\main.cpp(20,10): error C2248: 'Game::handleSpecialKeys': cannot access private member declared in class 'Game'
+  D:\UNITY\PingPong\Game.h(22,10):
+  see declaration of 'Game::handleSpecialKeys'
+  D:\UNITY\PingPong\Game.h(9,7):
+  see declaration of 'Game'
+  
+  PingPongBall.cpp
+  Player.cpp
+  Violation.cpp
+  Generating Code...
+D:\UNITY\PingPong\Violation.cpp(10): error C4716: 'Violation::weakHit': must return a value
+D:\UNITY\PingPong\Violation.cpp(6): error C4716: 'Violation::wallCollision': must return a value
